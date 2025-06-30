@@ -1,0 +1,66 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5fa;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.add-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.add-form input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.add-form button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.subject-card {
+  background: #e3f2fd;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.subject-card h3 {
+  margin: 0 0 5px 0;
+}
+
+.subject-card a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+form button {
+  margin: 10px 10px 10px 0;
+  padding: 8px 12px;
+  border: none;
+  background: #4caf50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
